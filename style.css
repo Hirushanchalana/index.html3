@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#scanner-container {
+    position: relative;
+}
+
+#video {
+    width: 100%;
+    max-width: 400px;
+}
+
+#canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
